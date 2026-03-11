@@ -10,3 +10,6 @@ dependencies = [
     "lightgbm",
     "matplotlib",
 ]
+
+[tool.uv.sources]
+foo = { workspace = false }
