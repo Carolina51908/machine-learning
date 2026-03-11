@@ -1,0 +1,12 @@
+[project]
+name = "series"
+version = "0.1.0"
+description = "Series de Tiempo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "skforecast[plotting]",
+    "pandas",
+    "lightgbm",
+    "matplotlib",
+]
